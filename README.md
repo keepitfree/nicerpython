@@ -1,2 +1,5 @@
 # nicerpython
-python patterns
+
+implemented features:
+
+dontcare symbol for arithmetics and boolean algebra
