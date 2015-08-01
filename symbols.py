@@ -18,7 +18,7 @@ class _DontCare(object):
         return other
     
     def __sub__(self, other):
-        return other
+        return -other
     
     def __mul__(self, other):
         return other
@@ -93,4 +93,3 @@ class _DontCare(object):
         return "dontcare"
 
 dontcare = _DontCare()
-
