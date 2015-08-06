@@ -18,7 +18,7 @@ class _DontCare(object):
         return other
     
     def __sub__(self, other):
-        return -other
+        return 0 if self is other else -other
     
     def __mul__(self, other):
         return other
